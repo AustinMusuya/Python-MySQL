@@ -45,7 +45,7 @@ def create_database(connection):
         # close connection
         cursor.close()
 
-# Step 2: Connect the the ALX_prodev database in MYSQL
+# Step 3: Connect the the ALX_prodev database in MYSQL
 
 
 def connect_to_prodev():
@@ -62,7 +62,7 @@ def connect_to_prodev():
         print(f"Connection error: {e}")
         return None
 
-# Step 2: Create a table user_data if it does not exists with the required fields
+# Step 4: Create a table user_data if it does not exists with the required fields
 
 
 def create_table(connection):
@@ -86,7 +86,7 @@ def create_table(connection):
         # close connection
         cursor.close()
 
-# Step 2: Inserts data in the database if it does not exist
+# Step 5: Inserts data in the database if it does not exist
 
 
 def insert_data(connection, data):
